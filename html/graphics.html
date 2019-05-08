@@ -34,7 +34,7 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<div class="navbar-logo-container">
-							<img class="navbar-logo" src="../images/cart.png" alt="Cart">
+							<img class="navbar-logo" src="../images/cart.png" alt="Cart"  data-toggle="modal" data-target="#cartModal">
 						</div>
 					</li>
 					<li class="nav-item">
@@ -58,9 +58,50 @@
 		
 		<div class="body-container">
 			
+		<div class="modal fade" id="cartModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Your Cart</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<table class="table table-condensed">
+							<tbody>
+								<tr>
+									<td class="cart-remove">x</td>
+									<td><img class="cart-img" src="../images/space.png"></td>
+									<td>by: Ipsum</td>
+									<td>02.00 USD</td>
+								</tr>
+								<tr>
+									<td class="cart-remove">x</td>
+									<td><img class="cart-img" src="../images/spiritofrock.gif"></td>
+									<td>by: Ipsum</td>
+									<td>01.00 USD</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="modal-footer">
+						<p class="mr-auto">Total: 03.00 USD</p>
+						
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Proceed to Payment</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			
 		<div class="custom-container c-bottom">
 			<div class="jumbotron custom-jumbotron categories-jumbotron">
-				<div class="row title-row type-btn-grp">
+				<div class="row title-row">
+					<h1>Graphics</h1>
+				</div>
+				
+				<div class="row type-btn-grp store-searchbar">
 					<div class="input-group mb-3">
 						<input type="text" class="form-control">
 						<div class="input-group-append">
@@ -70,57 +111,136 @@
 				</div>
 				
 				<div class="row title-row type-btn-grp">
-					<button type="button" class="btn type-btn">Type 1</button>
-					<button type="button" class="btn type-btn">Type 2</button>
-					<button type="button" class="btn type-btn">Type 3</button>
-					<button type="button" class="btn type-btn">Type 4</button>
-					<button type="button" class="btn type-btn">Type 5</button>
-					<button type="button" class="btn type-btn">Type 6</button>
-					<button type="button" class="btn type-btn">Type 7</button>
-					<button type="button" class="btn type-btn">Type 8</button>
+					<button type="button" class="btn type-btn">Pixel Art</button>
+					<button type="button" class="btn type-btn">Animation</button>
+					<button type="button" class="btn type-btn">Vector</button>
+					<button type="button" class="btn type-btn">3-Dimensional Art</button>
+					<button type="button" class="btn type-btn">Icons</button>
+					<button type="button" class="btn type-btn">Drawings &amp; Paintings</button>
 				</div>
 				
 				<div class="container">
 					<div class="row custom-row-cat">
 						<div class="card categories-card" style="width: 18rem;">
-							<img class="card-img-top" src="../images/Placeholder.png" alt="">
+							<img class="card-img-top" src="../images/compilation.png" data-toggle="modal" data-target="#iconModal">
 							<div class="card-body">
-    							<h5 class="card-title">Product 1</h5>
+								<h5 class="card-title">Icon Compilation</h5>
+							</div>
+						</div>
+						
+						<div class="modal fade" id="iconModal" tabindex="-1" role="dialog">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Product Preview</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body prev-modal">
+										<div>
+											<img class="product-prev" src="../images/compilation.png">
+										</div>
+										
+										<div class="prod-desc">
+											<div>
+												<h5>Icon Compilation</h5>
+												<p>by: Lorem</p>
+												<p>
+													This package contains Rainmeter Honeycomb compatible icons; The icons included here are
+												for Blender, Brackets, Grim Dawn, Half Life, Maplestory, Mass Effect, Minecraft, Openoffice, 
+												Photoshop, SAI, Sketch Up, Skyrim and Tor.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<p class="mr-auto">Price: 0.50 USD</p>
+
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Add to Cart</button>
+									</div>
+								</div>
 							</div>
 						</div>
 						
 						<div class="card categories-card" style="width: 18rem;">
-							<img class="card-img-top" src="../images/Placeholder.png" alt="">
+							<img class="card-img-top" src="../images/spiritofrock.gif" data-toggle="modal" data-target="#spiritModal">
 							<div class="card-body">
-    							<h5 class="card-title">Product 2</h5>
+    							<h5 class="card-title">Spirit of Rock GIF</h5>
+							</div>
+						</div>
+						
+						<div class="modal fade" id="spiritModal" tabindex="-1" role="dialog">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Product Preview</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body prev-modal">
+										<div>
+											<img class="product-prev" src="../images/spiritofrock.gif">
+										</div>
+										
+										<div class="prod-desc">
+											<div>
+												<h5>Spirit of Rock</h5>
+												<p>by: Ipsum</p>
+												<p>
+													Looping IGF of a character called "Spirit of Rock"
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<p class="mr-auto">Price: 01.00 USD</p>
+
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Add to Cart</button>
+									</div>
+								</div>
 							</div>
 						</div>
 						
 						<div class="card categories-card" style="width: 18rem;">
-							<img class="card-img-top" src="../images/Placeholder.png" alt="">
+							<img class="card-img-top" src="../images/space.png" data-toggle="modal" data-target="#spaceModal">
 							<div class="card-body">
-    							<h5 class="card-title">Product 3</h5>
+    							<h5 class="card-title">Space</h5>
 							</div>
 						</div>
 						
-						<div class="card categories-card" style="width: 18rem;">
-							<img class="card-img-top" src="../images/Placeholder.png" alt="">
-							<div class="card-body">
-    							<h5 class="card-title">Product 4</h5>
-							</div>
-						</div>
-						
-						<div class="card categories-card" style="width: 18rem;">
-							<img class="card-img-top" src="../images/Placeholder.png" alt="">
-							<div class="card-body">
-    							<h5 class="card-title">Product 5</h5>
-							</div>
-						</div>
-						
-						<div class="card categories-card" style="width: 18rem;">
-							<img class="card-img-top" src="../images/Placeholder.png" alt="">
-							<div class="card-body">
-    							<h5 class="card-title">Product 6</h5>
+						<div class="modal fade" id="spaceModal" tabindex="-1" role="dialog">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Product Preview</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body prev-modal">
+										<div>
+											<img class="product-prev" src="../images/space.png">
+										</div>
+										
+										<div class="prod-desc">
+											<div>
+												<h5>Spirit of Rock</h5>
+												<p>by: Ipsum</p>
+												<p>Dimensions: 4096x2048</p>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<p class="mr-auto">Price: 02.00 USD</p>
+
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Add to Cart</button>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>	
