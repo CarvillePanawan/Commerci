@@ -16,10 +16,11 @@
 }
 
 .custom-container {
-	background-color: #5b646c;
+	background-color: #5b646c;	
 }
 
 .custom-footer {
+	height: 56px;
 	background-color: #343a40;
 	color: #fff;
 	font-family: "Montserrat-Regular";

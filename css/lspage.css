@@ -1,0 +1,48 @@
+* {
+	font-family: "Montserrat-Regular";
+}
+
+.signup-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+.signup-row-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	color: #fff;
+}
+
+.signup-row-top img {
+	height: 100px;
+	width: auto;
+}
+
+.lspage-card {
+	height: 500px;
+	width: 500px;
+}
+
+.llspage-card {
+	height: 300px;
+	width: 500px;
+}
+
+.lspage-submit-btn {
+	width: 100%;
+	color: #fff;
+	background-color: green;
+	border: none;
+	padding: 10px;
+	font-size: 1.2em;
+	border-radius: 5px;
+}
+
+.lspage-submit-btn:hover {
+	cursor: pointer;
+	background-color: #068b06;
+}
