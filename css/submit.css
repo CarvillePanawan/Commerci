@@ -1,0 +1,104 @@
+.submit-card {
+	min-height: 500px;
+	background-color: #656f77;
+	border-radius: 5px;
+	padding: 15px;
+	color: #fff;
+}
+
+.description-box {
+	resize: none;
+	width: 100%;
+	height: 90px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.title-box {
+	width: 100%;
+	padding: 5px;
+	height: 30px;
+	font-size: 0.8em;
+}
+
+.piece-specs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.piece-info{
+	width: 70vw;
+	margin: 10px;
+}
+
+.piece-details{
+	width: 30vw;
+	margin: 10px;
+}
+
+.upload-file {
+	min-height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.05);;
+}
+
+.upload-file button {
+	background-image: url("../images/Honeycomb.png");
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 1em;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+}
+
+.upload-file button:hover {
+	cursor: pointer;
+}
+
+.input-grp {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.8em;
+}
+
+.input-grp label {
+	margin-right: 10px;
+}
+
+.input-grp select {
+	width: 87.8%;
+}
+
+.submit-btn-grp {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row;
+}
+
+.cancel-btn {
+	border: 1px solid #6d6d6d;
+	padding: 5px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 0255, 0.2);
+}
+
+.submit-btn {
+	margin-left: 10px;
+	border: 1px solid #6d6d6d;
+	padding: 5px;
+	color: #fff;
+	background-color: rgba(0, 144, 0, 0.59);
+	border: 1px solid rgba(255, 255, 0255, 0.2);
+}
+
+.cancel-btn,
+.submit-btn {
+	cursor: pointer:
+}

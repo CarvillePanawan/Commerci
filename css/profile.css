@@ -1,0 +1,139 @@
+* {
+	font-family: "Montserrat-Regular";
+}
+
+.profile-icon {
+	height: 50px;
+	border-radius: 100%;
+}
+
+.prof-info-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.prof-dropdown {
+	color: rgba(255, 255, 255, 0.6);
+	margin-left: 10px;
+	border: none;
+	background: none;
+}
+
+.prof-dropdown:hover {
+	cursor: pointer;
+}
+
+.profile-catch-phrase {
+	background-clip: #5b646c;
+}
+
+.profile-jumbotron {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.profile-card {
+	min-height: 500px;
+	min-width: 48%;
+	background-color: #656f77;
+}
+
+.profile-header {
+	min-height: 50px;
+	padding: 5px 5px 5px 10px;
+	color: #fff;
+	background-color: #343a40;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.profile-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.profile-info img {
+	height: 300px;
+	width: auto;
+}
+
+.profile-specs {
+	width: 90%;
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: column;
+	color: #fff;
+}
+
+.profile-specs p {
+	font-size: 0.8em;
+}
+
+.profile-btn-grp {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.profile-btn-grp button {
+	background-image: url("../images/Honeycomb.png");
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.profile-btn-grp button:hover {
+	cursor: pointer;
+}
+
+.profile-gallery {
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: solid 1px #444444;
+	width: 100%;
+}
+
+.profile-gallery h3 {
+	color: #fff;
+}
+
+.profile-row {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.gallery-img {
+	max-height: 200px;
+	max-width: auto;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+.gallery-img:hover {
+	cursor: pointer;
+}
+
+.gallery-header {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.submit-to-gallery {
+	font-size: 0.8em;
+	margin-left: 10px;
+	border: 1px solid #6d6d6d;
+	padding: 0 5px 0 5px;
+	color: #fff;
+	background-color: rgba(180, 180, 180, 0.1);
+}
+
+.submit-to-gallery:hover {
+	cursor: pointer;
+}
